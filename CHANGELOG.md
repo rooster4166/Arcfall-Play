@@ -1,44 +1,36 @@
-# ARCFALL 1.7 — A battle of spellbooks
+# ARCFALL 1.8
 
-**Twenty-one spells and eight spellbook presets.** Venom Orb adds delayed damage
-that Ward blocks and Mend cleanses. Stone Wall creates destructible cover with
-open flanks and open sky. Both have original Blender models and textures in the
-existing art style. The wizard's hat now sits slightly lower against the head.
+**Prepare, reposition, counterattack.** One optional support can precede your
+main spell. Blink, Ward, Mend, Bridge and Stone Wall share the support action and
+the same banked mana. Income scales from 1 to 4 per owner turn, with an 8-mana cap.
 
-Fire Ball is optional. Alchemist, Warden and Stormcaller join the original five
-presets with their own tools; everyone retains Blink and free Staff Spark. An
-eight-player preset battle gives each opponent a different book. Fire Ball makes
-a smaller crater, while Ward, Imp, Briar and Gale are cheaper to cast.
+Meteor and Firestorm start with charged physical beacons. Land the shot to call
+the descending attack; cover can intercept it and a sea miss spends the cast.
+Sky Ray keeps precise Ward removal with 22 base damage and two recovery turns.
+Homing Seeker retains its natural weakness against intervening objects.
 
-The AI evaluates threats, firing lanes, book strengths, terrain support, incoming
-knockback and spells it can afford over the next two turns. It can bank mana,
-counter infection, protect itself, use summons and seek a safe firing position
-when trapped. It uses the same spell costs, unlocks and placement rules as players.
+Tidal Reckoning now brings a storm across the surrounding sea, with many
+irregular waves and 128 water projectiles from scattered offshore positions.
+Most impacts progressively erode the coast. Every surviving rival gets a
+response turn before the barrage. Worldsplitter is an immediate 36 m × 6 m rupture
+for 80 grounded damage, including crater floors and positions under roofs.
 
-**Learn to cast** teaches movement, angle and power through actual actions.
-F2 hides or replays the optional guide. Holding and releasing the mouse still
-requires judging the shot; no predicted landing point is shown. The movement
-bar reports the remaining distance in metres.
+Fire Ball makes shallow craters and needs a recovery turn. Ward expires on your
+next turn and cannot be spammed continuously. Mend has two uses per battle, restoring 40 and cleansing
+poison/roots. Briar fully binds the next movement turn, followed by a full
+unbound turn; Blink and Mend provide answers.
 
-Eliminated players can watch, start another battle or return to shore immediately.
-A wizard dying during its own movement now correctly finishes that seat's turn.
-**O** doubles AI observation speed while preserving the simulation step; human
-movement and casting stay at normal speed. **Continue battle** restores the
-current match after returning to the menu, during the same application session.
+AI considers enclosing craters, escape routes, safe hops and support/main
+combinations. Bridge preview and casting share reliable grounded placement.
+Camera handoffs avoid travelling through the island.
 
-Settings separate Controls, Audio and Display, with alternate two-click casting,
-interface scale, lower effects, reduced motion, frame caps and fullscreen (F11).
-Windows includes **Play-DirectX12.cmd** as an alternative to the default Vulkan
-renderer. Menus support keyboard focus and small-window scrolling.
+**J leaves towers from movement or aim**, fixing the tutorial trap. Tab offers
+a visible **Leave tower** button. Leaving keeps your spell action, and walking
+afterward advances the guide. The HUD shows support availability and next-turn
+mana income.
 
-The final four eight-player AI matches completed with 436 accepted casts across
-16 spell types, no rejected AI casts and no deaths during a wizard's own movement.
-Fire Ball was 35% of primary casts, down from 63% in the first development cohort.
-These are observations from a small sample, not a competitive book ranking.
-Focused regression checks cover AI tactics, real spell effects, input, turn flow,
-onboarding and playback. Native Windows play and Vulkan/DirectX 12 rendering
-were reviewed on an RTX 3060 Ti.
+Windows x64: AI duels, four/eight-player free-for-all against AI, two-player
+hotseat and practice. No online matchmaking or battle saves to disk. The ZIP
+includes a DirectX 12 launcher alongside the default Vulkan executable.
 
-Available modes are AI duels, four/eight-player free-for-all against AI,
-two-player local hotseat and practice. This release has no online matchmaking
-or disk saves for battles. [Download and controls](README.md).
+[Download and controls](README.md).

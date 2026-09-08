@@ -6,7 +6,7 @@ A first-person, turn-based wizard artillery game. Prepare eight spells under a
 20-point budget, bank mana for a devastating ritual, and turn your opponent's
 cover into a crater. Water is deadly. Position matters as much as damage.
 
-![Eight-player battle on Grand Reach after the first round](images/battle.png)
+![Stormcaller opens an eight-player battle on Grand Reach](images/battle.png)
 
 ## Download and play
 
@@ -27,14 +27,14 @@ hardware specification.
 - AI duels and four/eight-player free-for-all against AI.
 - Two-player hotseat on one computer.
 - Guided practice and a sandbox with all twenty-one spells.
-- Three destructible arenas, original 3D artwork, towers, imps and late-game
-  rituals with time for opponents to respond.
+- Three destructible arenas, original 3D artwork, towers, imps and a storm-sea
+  finale with time for opponents to respond.
 
 This is a **local game**. There is no online matchmaking. Returning to the menu
 keeps your current battle available until you begin another or close the game;
 battles are not saved to disk.
 
-![Tidal Reckoning crossing the island](images/tide.png)
+![Tidal Reckoning turns the surrounding sea into a storm](images/tide.png)
 
 ## Your first spell
 
@@ -44,7 +44,7 @@ cancels. Power controls travel, not damage. **E** switches between moving and
 aiming; **V** switches the aiming camera. The game shows the real flight after
 release, so use the result to judge your next shot.
 
-**Tab** opens spellbooks. **F2** shows/hides the guide. **Esc** opens settings,
+**J** leaves your tower, even while aiming; **Tab** opens spellbooks and also offers **Leave tower**. **F2** shows/hides the guide. **Esc** opens settings,
 **F11** switches fullscreen, and **O** changes the speed of watching AI turns.
 Settings includes optional two-click casting, lower effects and interface scale.
 
@@ -57,11 +57,32 @@ tools. Every book retains Blink and the free Staff Spark.
 
 ![Stone Wall creates a new defensive position](images/wall.png)
 
-![Alchemist's first Staff Spark: follow the real projectile and learn from its flight](images/learn.png)
+![A charged sky beacon: land the shot to call the descending attack](images/learn.png)
 
-*The first-cast and eight-player screenshots were captured from the standalone
-1.7 Windows game using keyboard and mouse. The Tidal Reckoning image shows the
-same ritual from its original 1.4 release.*
+*Current 1.8 Windows gameplay: standalone beacon, wall and storm captures, plus the native eight-player opening.*
+
+## Prepare, reposition, counterattack
+
+Each turn allows **one optional support, then one main spell**. Blink, Ward,
+Mend, Bridge and Stone Wall share that support action and your mana bank.
+Blink out of a crater and attack, or cleanse and counterattack. Main spells end
+the turn. Income rises from 1 on your first two turns, to 2 from turn 3, 3 from
+turn 5, and 4 from turn 8. Bank up to 8; the HUD shows next-turn income.
+
+Ward lasts until your next turn and has two recovery turns. Mend has two uses
+per battle, restoring 40 health and clearing poison/roots. Briar binds the next movement turn, with a full
+unbound turn afterward; Ward/towers intercept it and Blink/Mend can answer.
+
+**Meteor and Firestorm require a charged beacon to land.** Cover can catch it
+early and a sea miss spends the shot. Roofs intercept the descending attack.
+Sky Ray keeps precise Ward removal with low damage and recovery. Seeker homes
+into intervening obstacles that a carefully arced shot could clear.
+
+**Worldsplitter** is an immediate 36 m ground rupture. **Tidal Reckoning** changes
+the surrounding sea into a storm and launches 128 physical water projectiles
+from scattered locations over ten seconds, mostly eroding the coast. Every
+surviving rival gets a response turn; cover and friendly fire matter.
+
 
 ## Feedback
 
