@@ -1,3 +1,32 @@
+# ARCFALL 1.10.0
+
+Four new spells expand the catalogue to 25: Mana Leech, Cinder Pot, Grapnel and
+Runic Canopy. They add aimed mana theft, ground hazards, physical grappling and
+temporary overhead protection, with original painted Blender assets.
+
+Moonwell Atoll, Crownstep Heights, Lantern Court and Copperwake Strand add four
+distinct landforms for 2/4/8 players. Roof galleries provide real sheltered
+passages and elevated routes; destructive attacks can bring them down.
+
+Custom rules support mirrored/random books, spell restrictions, reproducible
+seeds, teams and optional 45/60/90-second turns. Hotseat now supports up to eight
+humans. Search/filter preparation and share validated spellbook codes.
+
+All human aiming and charging remains first person with no predicted artillery
+landing point. Network charging uses actual held time, so a slow render frame
+does not inflate the meter. Released spells keep their observation camera.
+
+AI evaluates tower foundations and remaining protection, short collapse escapes,
+allied targets and the new spells. Blink rejects unstable steep-lip landings.
+Raise Tower has three recovery turns, creating counterplay after destruction.
+Existing local saves migrate forward, retaining terrain and battle resources.
+
+Experimental direct connections support 2/4/8 humans and spectators on trusted
+networks. Hosts validate actions and spending; clients preserve first-person
+control, shared effects and their separate local saved battle. Reconnect has a
+45-second grace. Public matchmaking, Internet security, relays, host migration
+and adverse-network acceptance are not included.
+
 # ARCFALL 1.9.0
 
 All human aiming and charging is first person, including Sky Ray and

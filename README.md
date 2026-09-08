@@ -6,7 +6,7 @@ A first-person, turn-based wizard artillery game. Prepare up to eight spells und
 20-point budget, bank mana for a devastating ritual, and turn your opponent's
 cover into a crater. Water is deadly. Position matters as much as damage.
 
-![Stormcaller opens an eight-player battle on Grand Reach](images/battle.png)
+![A first-person opening on Moonwell Atoll in eight-player FFA](images/battle.png)
 
 ## Download and play
 
@@ -27,13 +27,21 @@ hardware specification.
 - AI duels and four/eight-player free-for-all against AI.
 - Six solo Trials with fixed rivals and optional mastery goals.
 - Apprentice, Adept and Archmage skirmish opponents, with equal resources.
-- Six named personal spellbooks and a combat history explaining each loss.
-- Two-player hotseat on one computer.
-- Guided practice and a sandbox with all twenty-one spells.
-- Three destructible arenas, original 3D artwork, towers, imps and a storm-sea
+- Six named personal spellbooks, shareable book codes and combat history.
+- Two/four/eight-player hotseat on one computer; FFA or team battles.
+- Prepared, mirrored or randomized books, restrictions, seeds and optional turn clocks.
+- Guided practice and a sandbox with all twenty-five spells.
+- Seven arena choices, original 3D artwork, towers, imps and a storm-sea
   finale with time for opponents to respond.
 
-This is a **local game**. There is no online matchmaking. Settled battles save
+AI and hotseat battles work locally. **Play with friends** also offers experimental
+direct connections for 2/4/8 humans and spectators on trusted networks. Use the
+same version, join the host's address/port, prepare books and ready up. This has
+no public matchmaking, relay, encrypted identity or host migration; public
+Internet security and adverse-network performance remain unvalidated. The host
+owns the shared battle, and opening settings pauses only your input.
+
+Settled local battles save
 automatically. **Save and return to shore** suspends a settled battle; **Resume
 saved battle** restores it after restarting. Closing during an action returns
 to the last safe checkpoint. Starting another normal battle replaces the single
@@ -55,6 +63,12 @@ result to judge your next shot.
 **F11** switches fullscreen, and **O** changes the speed of watching AI turns.
 Settings includes optional two-click casting, lower effects and interface scale.
 
+**Mana Leech** disrupts an exposed enemy's mana, **Cinder Pot** forces movement
+out of a ground hazard, **Grapnel** pulls you physically toward cover, and
+**Runic Canopy** intercepts overhead attacks while leaving its flanks exposed.
+Select these from the spellbook with **Tab**. Their protection, movement and
+resource tradeoffs compete with saving for a finisher.
+
 **K** selects Venom Orb: delayed pressure that wards block and Mend cleanses.
 **L** selects Stone Wall: destructible cover with open flanks. Eight spellbook
 presets support artillery, scouting, siege, poison, control and defensive play.
@@ -66,7 +80,7 @@ tools. Every book retains Blink and the free Staff Spark.
 
 ![First-person spell charging: judge the arc from angle and power](images/learn.png)
 
-*First-person charging is a controlled GPU review of 1.9.0. The storm is native gameplay from 1.8.1; the wall and eight-player opening are from 1.8.0, with the same art direction.*
+*First-person charging is a controlled GPU review of 1.10.0; Moonwell comes from the packaged 1.10.0 game. The storm is native gameplay from 1.8.1 and the wall is from 1.8.0, with the same art direction.*
 
 All six Trials are available immediately and accept any legal spellbook. Win to
 clear a Trial; two optional goals award mastery marks for combinations, varied
@@ -77,7 +91,7 @@ persist between launches.
 ## Prepare, reposition, counterattack
 
 Each turn allows **one optional support, then one main spell**. Blink, Ward,
-Mend, Bridge and Stone Wall share that support action and your mana bank.
+Mend, Bridge, Stone Wall, Grapnel and Runic Canopy share that support action and your mana bank.
 Blink out of a crater and attack, or cleanse and counterattack. Main spells end
 the turn. Income rises from 1 on your first two turns, to 2 from turn 3, 3 from
 turn 5, and 4 from turn 8. Bank up to 8; the HUD shows next-turn income.
@@ -85,6 +99,20 @@ turn 5, and 4 from turn 8. Bank up to 8; the HUD shows next-turn income.
 Ward lasts until your next turn and has two recovery turns. Mend has two uses
 per battle, restoring 40 health and clearing poison/roots. Briar binds the next movement turn, with a full
 unbound turn afterward; Ward/towers intercept it and Blink/Mend can answer.
+
+Raise Tower has three recovery turns after casting, so destroying it opens
+an opportunity. Blink checks stable terrain under its landing footprint.
+AI evaluates escape routes, actual tower foundations and support/main costs.
+Optional teams share victory and scouting but retain personal resources and
+friendly fire. The turn clock runs during movement and aiming, not spell flight.
+
+Moonwell Atoll, Crownstep Heights, Lantern Court and Copperwake Strand add
+broken basins, terraces, sheltered roof galleries and hooked coastal routes.
+Each supports 2/4/8 players. Grand Reach remains a larger Tidewatch variant.
+
+To share a build, open **Book library → Share or import a book** during
+preparation. Copy its code or paste one, inspect the spells/cost, then use it.
+Imports obey current restrictions; assigned Random or Mirror books stay fixed.
 
 **Meteor and Firestorm require a charged beacon to land.** Cover can catch it
 early and a sea miss spends the shot. Roofs intercept the descending attack.
