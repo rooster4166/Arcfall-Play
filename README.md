@@ -14,7 +14,7 @@ cover into a crater. Water is deadly. Position matters as much as damage.
 
 1. Download the Windows ZIP and extract the entire folder.
 2. Open **Arcfall.exe**. Keep the terrain DLL and other files beside it.
-3. Choose **Learn to cast**, then try a duel against AI.
+3. Choose **Learn to cast**, then **The First Crossing** in **Trials of the Isles** or an AI duel.
 
 No Godot or Blender installation is needed. Requires Windows x64, a keyboard and
 mouse, and a graphics card supporting Vulkan or DirectX 12. If the default
@@ -25,14 +25,19 @@ hardware specification.
 ## Choose your battle
 
 - AI duels and four/eight-player free-for-all against AI.
+- Six solo Trials with fixed rivals and optional mastery goals.
+- Apprentice, Adept and Archmage skirmish opponents, with equal resources.
+- Six named personal spellbooks and a combat history explaining each loss.
 - Two-player hotseat on one computer.
 - Guided practice and a sandbox with all twenty-one spells.
 - Three destructible arenas, original 3D artwork, towers, imps and a storm-sea
   finale with time for opponents to respond.
 
-This is a **local game**. There is no online matchmaking. Returning to the menu
-keeps your current battle available until you begin another or close the game;
-battles are not saved to disk.
+This is a **local game**. There is no online matchmaking. Settled battles save
+automatically. **Save and return to shore** suspends a settled battle; **Resume
+saved battle** restores it after restarting. Closing during an action returns
+to the last safe checkpoint. Starting another normal battle replaces the single
+saved battle; practice keeps it.
 
 ![Tidal Reckoning turns the surrounding sea into a storm](images/tide.png)
 
@@ -41,8 +46,10 @@ battles are not saved to disk.
 **WASD** moves; the movement bar shows how many metres remain. **Space** hops.
 Hold **left mouse**, adjust your angle, and release to cast. **Right mouse**
 cancels. Power controls travel, not damage. **E** switches between moving and
-aiming; **V** switches the aiming camera. The game shows the real flight after
-release, so use the result to judge your next shot.
+aiming. **Every spell aims and charges in first person**, including Sky Ray and
+Worldsplitter. There is no alternate aiming camera or predicted artillery
+landing point. The camera follows the real flight after release, so use the
+result to judge your next shot.
 
 **J** leaves your tower, even while aiming; **Tab** opens spellbooks and also offers **Leave tower**. **F2** shows/hides the guide. **Esc** opens settings,
 **F11** switches fullscreen, and **O** changes the speed of watching AI turns.
@@ -57,9 +64,15 @@ tools. Every book retains Blink and the free Staff Spark.
 
 ![Stone Wall creates a new defensive position](images/wall.png)
 
-![A charged sky beacon: land the shot to call the descending attack](images/learn.png)
+![First-person spell charging: judge the arc from angle and power](images/learn.png)
 
-*Windows gameplay from the 1.8 series: the storm is captured in 1.8.1; the beacon, wall and eight-player opening are from 1.8.0.*
+*First-person charging is a controlled GPU review of 1.9.0. The storm is native gameplay from 1.8.1; the wall and eight-player opening are from 1.8.0, with the same art direction.*
+
+All six Trials are available immediately and accept any legal spellbook. Win to
+clear a Trial; two optional goals award mastery marks for combinations, varied
+attacks or timely victories. Marks unlock no combat advantages. Choose a new
+book and retry the same starting situation. Personal books and best marks
+persist between launches.
 
 ## Prepare, reposition, counterattack
 

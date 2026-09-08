@@ -1,3 +1,24 @@
+# ARCFALL 1.9.0
+
+All human aiming and charging is first person, including Sky Ray and
+Worldsplitter. Removed alternate aiming cameras; the camera follows real spells
+after release. Artillery still reveals no solved trajectory or landing point.
+
+Six Trials of the Isles offer fixed rivals and optional mastery goals, with every
+Trial and legal book available immediately. Six named personal book slots keep
+your builds. Apprentice, Adept and Archmage change aim and tactical search while
+using the same resources. Combat history and result recaps explain damage,
+protection, poison and knockouts.
+
+Battles save settled checkpoints, including destroyed terrain, structures, units,
+resources and pending storms. Resume after restarting; closing mid-action returns
+to the last safe checkpoint. One saved battle slot; practice preserves it.
+
+AI support/main planning now accounts for the combined mana cost and future
+cooldowns. Ambient Armageddon blasts are placed beyond their full reach from the
+safe ring, correcting unavoidable erosion of the final center. Enemy attacks can
+still destroy that ground. Existing painted artwork and spell rules are retained.
+
 # ARCFALL 1.8.1
 
 Spell effects are prepared during loading, addressing the reproduced pauses when
