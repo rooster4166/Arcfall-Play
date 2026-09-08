@@ -2,7 +2,7 @@
 
 **Judge the arc. Break the ground. Be the last wizard standing.**
 
-A first-person, turn-based wizard artillery game. Prepare eight spells under a
+A first-person, turn-based wizard artillery game. Prepare up to eight spells under a
 20-point budget, bank mana for a devastating ritual, and turn your opponent's
 cover into a crater. Water is deadly. Position matters as much as damage.
 
@@ -59,7 +59,7 @@ tools. Every book retains Blink and the free Staff Spark.
 
 ![A charged sky beacon: land the shot to call the descending attack](images/learn.png)
 
-*Current 1.8 Windows gameplay: standalone beacon, wall and storm captures, plus the native eight-player opening.*
+*Windows gameplay from the 1.8 series: the storm is captured in 1.8.1; the beacon, wall and eight-player opening are from 1.8.0.*
 
 ## Prepare, reposition, counterattack
 

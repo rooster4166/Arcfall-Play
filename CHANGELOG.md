@@ -1,3 +1,11 @@
+# ARCFALL 1.8.1
+
+Spell effects are prepared during loading, addressing the reproduced pauses when
+Tide and Worldsplitter first appear. The painted art and spell rules are retained.
+Spell preparation now names and checks the selected preset; custom edits clear
+that check. AI Gale Palm targeting recognizes shoreline displacement that its
+previous short prediction missed, while respecting stone and Ward protection.
+
 # ARCFALL 1.8
 
 **Prepare, reposition, counterattack.** One optional support can precede your
